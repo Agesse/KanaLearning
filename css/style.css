@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+  margin: 5%;
+  text-align: center;
+}
+
+h1,
+.color-text {
+  color: #057EB6;
+}
+
+.showed-char {
+  display: block;
+
+  border: 1px solid #888;
+  border-radius: 4px;
+
+  min-width: 50%;
+  height: 1.5em;
+  margin: 2% auto 3%;
+
+  font-size: 20rem;
+  color: #333;
+}
+
+.showed-char img {
+  height: 1.3em;
+}

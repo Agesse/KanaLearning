@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Kana Learning</title>
+    <meta name="description"
+          content="Learn to write kana">
+    <meta name="author"
+          content="Agesse">
+
+    <link rel="stylesheet"
+          href="css/normalize.css">
+    <link rel="stylesheet"
+          href="css/skeleton.css">
+    <link rel="stylesheet"
+          href="css/style.css">
+  </head>
+
+  <body onload="Main.init()"
+        onkeydown="Main.keyboard(event)">
+    <h1>Kana Learning</h1>
+
+    <button class="showed-char"
+            onclick="Main.showAnswer()"></button>
+
+    <button onclick="Main.init()">Reset</button>
+    <button class="button-primary"
+            onclick="Main.nextKana()">Next</button>
+
+
+    <script src="script/script.js"></script>
+  </body>
+
+</html>
